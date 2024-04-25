@@ -1,0 +1,543 @@
+SystemName     geometry-4                                                                      
+SystemLabel     geometry-4                                                                      
+XML.Write              T     # default value
+XML.AbortOnErrors              F     # default value
+XML.AbortOnWarnings              F     # default value
+timer_report_threshold          0.000000000         # default value
+UseTreeTimer              F     # default value
+alloc_report_level         0     # default value
+alloc_report_threshold          0.000000000         # default value
+xc.functional     GGA                                                                             
+xc.authors     PBE                                                                             
+MM.Cutoff          30.00000000     Bohr     # default value
+MM.UnitsEnergy     eV     # default value
+MM.UnitsDistance     Ang     # default value
+WriteIonPlotFiles              F     # default value
+Atom.Debug.KB.Generation              F     # default value
+KB.New.Reference.Orbitals              F     # default value
+user-basis              F     # default value
+user-basis-netcdf              F     # default value
+ReparametrizePseudos              F     # default value
+Restricted.Radial.Grid              T     # default value
+Rmax.Radial.Grid          0.000000000         # default value
+PAO.BasisSize     standard            # default value
+PAO.BasisType     split          # default value
+PAO.SoftDefault              F     # default value
+PAO.SoftInnerRadius         0.9000000000         # default value
+PAO.SoftPotential          40.00000000         # default value
+PAO.SplitNorm         0.1500000000         # default value
+PAO.SplitNormH         -1.000000000         # default value
+Number_of_species              5
+%block Chemical_species_label
+     1 1 H.1
+     2 8 O.2
+     3 79 Au.gga.3
+     4 79 Au.gga.4
+     5 79 Au.gga.5
+%endblock Chemical_species_label
+%block PAO.BasisSizes
+     Au.gga.3	DZP
+%endblock PAO.BasisSizes
+%block PAO.Basis
+ H.1 2 0.46527
+             n=1 0 2 E 99.93138 2.59932
+             4.20357 1.84463
+             n=2 1 1 E 24.56504 2.20231
+ (Backspace to) |            n=2 1 1 E 24.56504 2.20231|
+             n=2 1 1 E 24.56504 2.20231
+             3.52816
+ O.2 3 -0.24233
+ (Backspace to) |O.2 3 -0.24233|
+ O.2 3 -0.24233
+             n=2 0 2 E 23.36061 3.39721
+             4.50769 2.64066
+             n=2 1 2 E 2.78334 5.14253
+ (Backspace to) |            n=2 1 2 E 2.78334 5.14253|
+             n=2 1 2 E 2.78334 5.14253
+             6.14996 2.59356
+             n=3 2 1 E 63.98188 0.16104
+ (Backspace to) |            n=3 2 1 E 63.98188 0.16104|
+             n=3 2 1 E 63.98188 0.16104
+             3.54403
+ Au.gga.4 2
+ (Backspace to) |Au.gga.4 2|
+ Au.gga.4 2
+             n=6 0 2 P 1
+             7.24700 5.71500
+             n=5 2 2
+ (Backspace to) |            n=5 2 2|
+             n=5 2 2
+             5.10700 2.83800
+ Au.gga.5 2
+ (Backspace to) |Au.gga.5 2|
+ Au.gga.5 2
+             n=6 0 2 P 1
+             9.07500 5.78700
+             n=5 2 2
+ (Backspace to) |            n=5 2 2|
+             n=5 2 2
+             6.55700 2.87400
+%endblock PAO.Basis
+%endblock PAO.Basis
+FilterCutoff          0.000000000     Ry     # default value
+FilterTol          0.000000000     Ry     # default value
+KB.Rmax          6.000000000     Bohr     # default value
+PAO.EnergyShift         0.7349798845E-02         Ry
+# above item originally: PAO.EnergyShift         0.1000000000     eV        
+PAO.SplitTailNorm              F     # default value
+PAO.FixSplitTable              F     # default value
+PAO.NewSplitCode              F     # default value
+PAO.Filter              F     # default value
+PAO.Filter              F     # default value
+PAO.Filter              F     # default value
+PAO.OldStylePolorbs              T     # default value
+PAO.SplitTailNorm              F     # default value
+PAO.FixSplitTable              F     # default value
+PAO.NewSplitCode              F     # default value
+Vna.Filter              F     # default value
+FilterCutoff          0.000000000     Ry     # default value
+FilterTol          0.000000000     Ry     # default value
+KB.Rmax          6.000000000     Bohr     # default value
+PAO.EnergyShift         0.7349798845E-02         Ry
+# above item originally: PAO.EnergyShift         0.1000000000     eV        
+PAO.SplitTailNorm              F     # default value
+PAO.FixSplitTable              F     # default value
+PAO.NewSplitCode              F     # default value
+PAO.Filter              F     # default value
+PAO.Filter              F     # default value
+PAO.Filter              F     # default value
+PAO.Filter              F     # default value
+PAO.Filter              F     # default value
+PAO.OldStylePolorbs              T     # default value
+PAO.SplitTailNorm              F     # default value
+PAO.FixSplitTable              F     # default value
+PAO.NewSplitCode              F     # default value
+Vna.Filter              F     # default value
+PCC.Filter              F     # default value
+FilterCutoff          0.000000000     Ry     # default value
+FilterTol          0.000000000     Ry     # default value
+KB.Rmax          6.000000000     Bohr     # default value
+PAO.EnergyShift         0.7349798845E-02         Ry
+# above item originally: PAO.EnergyShift         0.1000000000     eV        
+PAO.SplitTailNorm              F     # default value
+PAO.FixSplitTable              F     # default value
+PAO.NewSplitCode              F     # default value
+PAO.Filter              F     # default value
+PAO.Keep.Findp.Bug              F     # default value
+PAO.Filter              F     # default value
+PAO.Filter              F     # default value
+PAO.Filter              F     # default value
+PAO.OldStylePolorbs              T     # default value
+PAO.SplitTailNorm              F     # default value
+PAO.FixSplitTable              F     # default value
+PAO.NewSplitCode              F     # default value
+PAO.Filter              F     # default value
+Vna.Filter              F     # default value
+PCC.Filter              F     # default value
+FilterCutoff          0.000000000     Ry     # default value
+FilterTol          0.000000000     Ry     # default value
+KB.Rmax          6.000000000     Bohr     # default value
+PAO.EnergyShift         0.7349798845E-02         Ry
+# above item originally: PAO.EnergyShift         0.1000000000     eV        
+PAO.SplitTailNorm              F     # default value
+PAO.FixSplitTable              F     # default value
+PAO.NewSplitCode              F     # default value
+PAO.Filter              F     # default value
+PAO.Filter              F     # default value
+PAO.Filter              F     # default value
+PAO.Filter              F     # default value
+PAO.OldStylePolorbs              T     # default value
+PAO.SplitTailNorm              F     # default value
+PAO.FixSplitTable              F     # default value
+PAO.NewSplitCode              F     # default value
+PAO.Filter              F     # default value
+Vna.Filter              F     # default value
+PCC.Filter              F     # default value
+FilterCutoff          0.000000000     Ry     # default value
+FilterTol          0.000000000     Ry     # default value
+KB.Rmax          6.000000000     Bohr     # default value
+PAO.EnergyShift         0.7349798845E-02         Ry
+# above item originally: PAO.EnergyShift         0.1000000000     eV        
+PAO.SplitTailNorm              F     # default value
+PAO.FixSplitTable              F     # default value
+PAO.NewSplitCode              F     # default value
+PAO.Filter              F     # default value
+PAO.Filter              F     # default value
+PAO.Filter              F     # default value
+PAO.Filter              F     # default value
+PAO.OldStylePolorbs              T     # default value
+PAO.SplitTailNorm              F     # default value
+PAO.FixSplitTable              F     # default value
+PAO.NewSplitCode              F     # default value
+PAO.Filter              F     # default value
+Vna.Filter              F     # default value
+PCC.Filter              F     # default value
+PAO.BasisType     split          # default value
+Atom-Setup-Only              F     # default value
+UseStructFile              F     # default value
+MD.UseStructFile              F     # default value
+LatticeConstant          1.889726878           Bohr
+# above item originally: LatticeConstant          1.000000000     Ang       
+%block LatticeVectors
+     11.975725345373620     0.000000000000000     0.000000000000000
+     0.000000000000000     10.371282377926580     0.000000000000000
+     0.000000000000000     0.000000000000000     57.333623994331909
+AtomicCoordinatesFormat     Ang                                                                             
+NumberOfAtoms             67
+ZM.UnitsLength     Bohr           # default value
+ZM.UnitsAngle     rad            # default value
+ZM.ForceTolLength         0.1555740000E-02 Ry/Bohr     # default value
+ZM.ForceTolAngle         0.3565490000E-02 Ry/rad     # default value
+ZM.MaxDisplLength         0.2000000000     Bohr     # default value
+ZM.MaxDisplAngle         0.3000000000E-02 rad     # default value
+ZM.CalcAllForces              F     # default value
+%block AtomicCoordinatesAndAtomicSpecies
+     -0.004953942     -0.099534893     24.825108293 5
+      2.960962870     -0.110635981     24.800671890 5
+      5.919322905     -0.111718480     24.866564752 5
+      8.898945580     -0.100196285     24.884750166 5
+      1.478574772      2.462139120     24.792713474 5
+      4.446117993      2.462515522     24.812137101 5
+      7.418320686      2.465339847     24.892190095 5
+     10.383309839      2.468326740     24.823886489 5
+     -0.008159271      5.037644634     24.819677671 5
+      2.963361830      5.042305008     24.765119333 5
+      5.924173232      5.039724932     24.848651809 5
+      8.901215514      5.032376564     24.915050545 5
+      1.487484807      7.613102708     24.814838853 5
+      4.440097721      7.612168952     24.782826768 5
+      7.395187498      7.611038473     24.934419913 5
+     10.380122537      7.609523889     24.877647829 5
+      1.471215501      0.801247253     27.357111423 5
+      4.436538115      0.798502013     27.380713487 5
+      7.402657886      0.807218905     27.425893291 5
+     10.374538940      0.820458570     27.384321309 5
+     -0.019711873      3.361033493     27.328550331 5
+      2.966770128      3.377103942     27.300941262 5
+      5.927645309      3.376700966     27.381844642 5
+      8.884337931      3.379418101     27.470568005 5
+      1.474805684      5.960165241     27.313383840 5
+      4.435281180      5.962165242     27.351524726 5
+      7.404123221      5.942301271     27.447090450 5
+     10.388652065      5.936254871     27.421951548 5
+      0.020348915      8.517524273     27.344302294 5
+      2.946340656      8.529565003     27.381578670 5
+      5.903739440      8.519177698     27.442783723 5
+      8.886052810      8.516311110     27.405593474 5
+     -0.023948373      1.699818529     29.854094007 3
+      2.948209377      1.693615783     29.798161400 3
+      5.933835832      1.691277392     29.864686080 3
+      8.907511809      1.665847540     29.946245678 3
+      1.466544147      4.304412126     29.712647586 3
+      4.441255344      4.278902612     29.801978902 3
+      7.405611931      4.238268864     29.964478912 3
+     10.371229927      4.241964636     29.902076104 3
+     -0.032455655      6.836499000     29.842508730 3
+      2.970781817      6.851947959     29.829955808 3
+      5.928340881      6.821423866     29.917403413 3
+      8.886135424      6.798265592     29.936409513 3
+      1.450174049      9.411943047     29.886962676 3
+      4.451095379      9.415321176     29.877703892 3
+      7.421361086      9.383080192     29.925415855 3
+     10.350446590      9.373249334     29.760854019 3
+     -0.297656615     -0.076424682     32.275074712 3
+      2.977973881      0.080696328     32.362801229 3
+      5.900812233      0.087740499     32.554288385 3
+      8.747968048      0.037077311     32.678353147 3
+      1.566453937      2.865468155     32.169896077 3
+      4.504999004      2.678223481     32.410658250 3
+      7.434614251      2.609252048     32.623172367 3
+     10.398002071      2.564494143     32.685080682 3
+     -0.122136788      5.198707674     32.467057669 3
+      3.042467027      5.317879114     32.442981180 3
+      5.964183340      5.214783883     32.582276061 3
+      8.857789291      5.139719184     32.682047267 3
+      1.392038764      7.756513575     32.406400035 3
+      4.400600881      7.845083730     32.559673486 3
+      7.345678607      7.761777367     32.584587918 3
+     10.266893427      7.694485865     32.620446398 3
+      1.245447458      1.331939277     34.361950636 2
+      1.502084245      1.922909774     35.076007225 1
+      0.344603271      1.473078693     34.161734188 1
+UseSaveData              F
+MD.UseSaveXV              F
+MD.UseSaveZM              F     # default value
+WriteCoorInitial              T     # default value
+MD.TypeOfRun     CG                                                                              
+MaxBondDistance          6.000000000     Bohr     # default value
+Output-Structure-Only              F     # default value
+WriteCoorXmol              F
+#:physical? MaxWalltime              F
+MaxWalltime         0.1797693135+309     # default value
+#:physical? MaxWalltime.Slack              F
+MaxWalltime.Slack          5.000000000         # default value
+SpinPolarized              F     # default value
+NonCollinearSpin              F     # default value
+HSetupOnly              F     # default value
+LongOutput              F     # default value
+WriteDenchar              F     # default value
+WriteMullikenPop              0
+WriteHirshfeldPop              F
+WriteVoronoiPop              F
+PartialChargesAtEveryGeometry              F     # default value
+PartialChargesAtEveryScfStep              F     # default value
+MeshCutoff          699.9937475             Ry
+# above item originally: MeshCutoff          9523.985109     eV        
+NetCharge          0.000000000         # default value
+MinSCFIterations              0
+MaxSCFIterations            500
+SCFMustConverge              T
+MixHamiltonian              F     # default value
+TS.MixH              F     # default value
+MixCharge              F     # default value
+Compat-pre-v4-DM-H              F     # default value
+SCF.MixAfterConvergence              F     # default value
+SCF.Recompute-H-After-Scf              F     # default value
+DM.NumberPulay              3
+DM.NumberBroyden         0     # default value
+DM.FIRE.Mixing              F     # default value
+DM.MixSCF1              F     # default value
+DM.PulayOnFile              F     # default value
+DM.Pulay.Avoid.First.After.Kick              F     # default value
+DM.MixingWeight         0.3000000000E-01
+DM.OccupancyTolerance         0.1000000000E-11     # default value
+DM.NumberKick         0     # default value
+DM.KickMixingWeight         0.5000000000         # default value
+DM.Tolerance         0.1000000000E-03
+DM.RequireEnergyConvergence              F     # default value
+DM.EnergyTolerance         0.7349806700E-06 Ry     # default value
+DM.RequireHarrisConvergence              F     # default value
+DM.HarrisTolerance         0.7349806700E-06 Ry     # default value
+MonitorForcesInSCF              F     # default value
+UseSaveData              F
+DM.UseSaveDM              F
+NeglNonOverlapInt              F     # default value
+SolutionMethod     diagon                                                                          
+Diag.DivideAndConquer              T     # default value
+Diag.Memory          1.000000000         # default value
+ElectronicTemperature         0.3674899422E-02         Ry
+# above item originally: ElectronicTemperature          50.00000000     meV       
+FixSpin              F     # default value
+ON.MaxNumIter      1000     # default value
+ON.etol         0.1000000000E-07     # default value
+ON.eta          0.000000000     Ry     # default value
+ON.eta_alpha          0.000000000     Ry     # default value
+ON.eta_beta          0.000000000     Ry     # default value
+On.RcLWF          9.500000000     Bohr     # default value
+ON.UseSaveLWF              F     # default value
+ON.functional     kim     # default value
+ON.ChemicalPotentialUse              F     # default value
+ON.ChemicalPotential              F     # default value
+ON.ChemicalPotentialRc          9.500000000     Bohr     # default value
+ON.ChemicalPotentialTemperature         0.5000000000E-01 Ry     # default value
+ON.ChemicalPotentialOrder       100     # default value
+MD.VariableCell              F     # default value
+compat-pre-v4-dynamics              F     # default value
+MD.TypeOfRun     CG                                                                              
+MD.UseSaveCG              F     # default value
+Optim.Broyden              F     # default value
+MD.NumCGsteps         0     # default value
+MD.MaxCGDispl         0.2000000000     Bohr     # default value
+MD.MaxForceTol         0.1555739508E-02    Ry/Bohr
+# above item originally: MD.MaxForceTol         0.4000000000E-01 eV/Ang    
+MD.MaxStressTol         0.6797730000E-04 Ry/Bohr**3     # default value
+GeometryMustConverge              F     # default value
+MD.InitialTimeStep         1     # default value
+MD.FinalTimeStep         1     # default value
+MD.LengthTimeStep          1.000000000     fs     # default value
+MD.Quench              F     # default value
+MD.FireQuench              F     # default value
+MD.InitialTemperature          0.000000000     K     # default value
+MD.TargetTemperature          0.000000000     K     # default value
+MD.TargetPressure          0.000000000     Ry/Bohr**3     # default value
+MD.NoseMass          100.0000000     Ry*fs**2     # default value
+MD.ParrinelloRahmanMass          100.0000000     Ry*fs**2     # default value
+MD.AnnealOption     TemperatureAndPressure     # default value
+MD.TauRelax          100.0000000     fs     # default value
+MD.BulkModulus         0.6797730000E-02 Ry/Bohr**3     # default value
+MD.FCDispl         0.4000000000E-01 Bohr     # default value
+MD.FCfirst         1     # default value
+MD.FClast        67     # default value
+UseSpatialDecomposition              F     # default value
+UseDomainDecomposition              F     # default value
+Harris_functional              F     # default value
+WriteKpoints              F
+WriteForces              T
+WriteDM              T     # default value
+WriteDM.NetCDF              F     # default value
+WriteDM.History.NetCDF              F     # default value
+WriteDMHS.NetCDF              F     # default value
+WriteDMHS.History.NetCDF              F     # default value
+SCF.Read.Charge.NetCDF              F     # default value
+SCF.Read.Deformation.Charge.NetCDF              F     # default value
+SaveInitialChargeDensity              F     # default value
+AnalyzeChargeDensityOnly              F     # default value
+UseNewDiagk              F     # default value
+WriteBands              F     # default value
+WriteKbands              F
+WriteEigenvalues              T
+WriteCoorStep              F
+WriteMDhistory              F
+WriteMDXmol              T
+UseSaveData              F
+SaveHS              F
+FixAuxiliaryCell              F     # default value
+NaiveAuxiliaryCell              F     # default value
+ReInitialiseDM              T     # default value
+DM.AllowReuse              T     # default value
+DM.AllowExtrapolation              T     # default value
+DM.NormalizationTolerance         0.1000000000E-04     # default value
+DM.NormalizeDuringSCF              T     # default value
+MullikenInSCF              F     # default value
+WarningMinimumAtomicDistance          1.000000000     Bohr     # default value
+BornCharge              F     # default value
+ChangeKgridInMD              F     # default value
+Diag.ParallelOverK              F     # default value
+MD.RelaxCellOnly              F     # default value
+MD.RemoveIntraMolecularPressure              F     # default value
+COOP.Write              F     # default value
+SaveRho              F
+SaveDeltaRho              F
+SaveRhoXC              F     # default value
+SaveElectrostaticPotential              F
+SaveNeutralAtomPotential              F     # default value
+SaveTotalPotential              F
+SaveIonicCharge              F     # default value
+SaveBaderCharge              F     # default value
+SaveTotalCharge              F     # default value
+Siesta2Wannier90.WriteMmn              F     # default value
+Siesta2Wannier90.WriteUnk              F     # default value
+Siesta2Wannier90.WriteAmn              F     # default value
+Siesta2Wannier90.WriteEig              F     # default value
+Siesta2Wannier90.NumberOfBandsUp         0     # default value
+Siesta2Wannier90.NumberOfBandsDown         0     # default value
+Siesta2Wannier90.NumberOfBands         0     # default value
+RcSpatial          0.000000000     Bohr     # default value
+ProcessorGridX         1     # default value
+ProcessorGridY         1     # default value
+ProcessorGridZ         1     # default value
+processorY         4     # default value
+blocksize        24     # default value
+NumberOfEigenStates       983     # default value
+TimeReversalSymmetryForKpoints              T     # default value
+%block kgrid_Monkhorst_Pack
+      1       0       0  0.0
+      0       1       0  0.0
+      0       0       1  0.0
+LongOutput              F     # default value
+WriteWaveFunctions              F
+ForceAuxCell              F     # default value
+AtomicCoordinatesFormat     Ang                                                                             
+AtomCoorFormatOut     Ang                        # default value
+LatticeConstant          1.889726878           Bohr
+# above item originally: LatticeConstant          1.000000000     Ang       
+%block DM.InitSpin
+SCF.Pulay.Damping         -1.000000000         # default value
+SCF.MixingWeightAfterPulay         0.5000000000         # default value
+SCF.PulayMinimumHistory         2     # default value
+SCF.PulayDmaxRegion          1000.000000         # default value
+SCF.LinearMixingAfterPulay              F     # default value
+SCF.Pulay.UseSVD              F     # default value
+SCF.Pulay.DebugSVD              T     # default value
+SCF.Pulay.RcondSVD         0.1000000000E-07     # default value
+MeshSubDivisions         2     # default value
+LatticeConstant          1.889726878           Bohr
+# above item originally: LatticeConstant          1.000000000     Ang       
+%block LatticeVectors
+     11.975725345373620     0.000000000000000     0.000000000000000
+     0.000000000000000     10.371282377926580     0.000000000000000
+     0.000000000000000     0.000000000000000     57.333623994331909
+PROCS_PER_NODE         4     # default value
+PROCS_PER_NODE         4     # default value
+DirectPhi              F     # default value
+SimulateDoping              F     # default value
+SlabDipoleCorrection              F     # default value
+Diag.ParallelOverK              F     # default value
+LatticeConstant          1.889726878           Bohr
+# above item originally: LatticeConstant          1.000000000     Ang       
+%block LatticeVectors
+     11.975725345373620     0.000000000000000     0.000000000000000
+     0.000000000000000     10.371282377926580     0.000000000000000
+     0.000000000000000     0.000000000000000     57.333623994331909
+Diag.AllInOne              F     # default value
+Diag.DivideAndConquer              T     # default value
+Diag.NoExpert              F     # default value
+Diag.PreRotate              F     # default value
+Diag.Use2D              T     # default value
+SingleExcitation              F     # default value
+OccupationFunction     FD     # default value
+OccupationFunction     FD     # default value
+SCF.Want.Variational.EKS              F     # default value
+DM.FormattedFiles              F     # default value
+DM.FormattedInput              F     # default value
+DM.FormattedOutput              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+SCF.Want.Variational.EKS              F     # default value
+#:list? Grid.CellSampling              F
+WriteCoorXmol              F
+WriteCoorCerius              F     # default value
+BasisPressure         0.2000000000     GPa     # default value
+OpticalCalculation              F     # default value
